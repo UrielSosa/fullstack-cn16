@@ -1,0 +1,27 @@
+[
+    {
+        "titulo": "Intro a js",
+        "descripcion": "Una breve intro a js",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Ya cerramos con la clase",
+        "descripcion": "Una breve intro a js",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Intro a js",
+        "descripcion": "Una breve intro a js",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Una nueva nota",
+        "descripcion": "Esta es una nueva nota",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Una nueva nota",
+        "descripcion": "Esta es una nueva nota",
+        "estado": "pendiente"
+    }
+]

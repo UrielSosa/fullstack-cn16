@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Intro a algo",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Ya cerramos con la clase",
+        "estado": "terminado"
+    },
+    {
+        "titulo": "Intro a nodejs",
+        "estado": "pendiente"
+    }
+]
