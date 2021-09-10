@@ -4,12 +4,12 @@ const path = require('path');
 const app = express();
 
 /* Config public */
-app.use(express.static(path.resolve(__dirname, 'public')));
+app.use('/', express.static(path.resolve(__dirname, './public')));
 
 
 /* Routes */
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'views/home.html'));
+    res.sendFile(path.resolve(__dirname, './views/home.html'));
 })
 
 
