@@ -1,0 +1,18 @@
+/*Estilos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ebebeb;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
