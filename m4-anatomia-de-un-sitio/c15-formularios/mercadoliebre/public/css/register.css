@@ -10,6 +10,7 @@ form {
     width: 100%;
     flex-direction: column;
     margin-bottom: 3px;
+    padding: 10px;
 }
 
 .form-control label {
