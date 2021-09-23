@@ -18,6 +18,14 @@ form {
 }
 .form-control input {
     width: 100%;
+    transition: border 2s;
+}
+.form-control input:focus {
+    border: aqua 5px solid;
+    outline: none;
+}
+.form-control input:hover {
+    border: blue 5px solid;
 }
 
 .enviar {
