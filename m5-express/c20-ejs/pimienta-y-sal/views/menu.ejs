@@ -2,34 +2,17 @@
     <div class="ps-col l6 ps-padding-large">
       <h1 class="ps-center"><%= titleMenu %> </h1>
       <br />
+
       <% platos.forEach(plato => { %>
 
-        <h4><%= plato.name %></h4>
+        <a href="/detail/<%= plato.id %>"><h4><%= plato.name %></h4></a>
         <p class="ps-text-grey">
           <%= plato.description %>
         </p>
         <br />
-        
+
       <% }) %>
       
-
-      <h4>Risotto de berenjena</h4>
-      <p class="ps-text-grey">
-        Risotto de berenjena y queso de cabra U$S 47.00
-      </p>
-      <br />
-
-      <h4>Mousse de arroz</h4>
-      <p class="ps-text-grey">
-        Mousse de arroz con leche y aroma de azahar U$S 27.50
-      </p>
-      <br />
-
-      <h4>Espárragos blancos</h4>
-      <p class="ps-text-grey">
-        Espárragos blancos con vinagreta de verduras y jamón ibérico U$S
-        37.50
-      </p>
     </div>
 
     <div class="ps-col l6 ps-padding-large ps-img-menu">
