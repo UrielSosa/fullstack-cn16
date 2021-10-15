@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Gypsy 83",
+        "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+        "price": 24852,
+        "discount": 90,
+        "category": "in-sale",
+        "image": "img-aire-acondicionado.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Louise Brooks: Looking for Lulu",
+        "description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+        "price": 175171,
+        "discount": 54,
+        "category": "visited",
+        "image": "img-macbook-pro-2019.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Somersault",
+        "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+        "price": 118552,
+        "discount": 85,
+        "category": "in-sale",
+        "image": "img-apple-magic-keyboard.jpg"
+    },
+    {
+        "id": 4,
+        "name": "The Lost Prince",
+        "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "price": 86387,
+        "discount": 93,
+        "category": "visited",
+        "image": "img-apple-magic-keyboard.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Manhattan Project, The",
+        "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+        "price": 18047,
+        "discount": 35,
+        "category": "visited",
+        "image": "img-heladera-whirpool.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Magicians",
+        "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+        "price": 153981,
+        "discount": 34,
+        "category": "in-sale",
+        "image": "img-macbook-pro-2019.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Sleepaway Camp",
+        "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+        "price": 104354,
+        "discount": 2,
+        "category": "in-sale",
+        "image": "img-cafetera-moulinex.jpg"
+    },
+    {
+        "id": 8,
+        "name": "The Seventh Sin",
+        "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+        "price": 175245,
+        "discount": 69,
+        "category": "visited",
+        "image": "img-macbook-pro-2019.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Boarding Gate",
+        "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+        "price": 17824,
+        "discount": 47,
+        "category": "visited",
+        "image": "img-cafetera-moulinex.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Cruel Gun Story (Kenjû zankoku monogatari)",
+        "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+        "price": 135507,
+        "discount": 95,
+        "category": "in-sale",
+        "image": "img-aire-acondicionado.jpg"
+    }
+]
