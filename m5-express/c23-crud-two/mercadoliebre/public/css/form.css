@@ -1,0 +1,74 @@
+form {
+    margin: 15px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+}
+h4 {
+    font-size: 20px;
+}
+.form-control {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3px;
+    padding: 10px;
+}
+
+.form-control input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: .06px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-control input[type="checkbox"] {
+    width: auto;
+}
+
+.form-control input[type="file"] {
+    border: none;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+.align-center {
+    text-align: center;
+}
+.search-form {
+    border: none;
+    outline: none;
+}
+.search-form input:focus {
+    outline: none;
+}
