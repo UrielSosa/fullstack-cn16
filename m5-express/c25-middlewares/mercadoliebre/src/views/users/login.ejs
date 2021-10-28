@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <%- include('../partials/head', {title: 'Login', style: '/css/form.css'})  %> 
+
+    <body>
+        <!--Header-->
+        <%- include('../partials/header')  %>
+        <!--/Header-->
+       
+        <main>
+            <form method="POST" class="login-form">
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <button type="submit" class="btn btn-success">Loguearse</button>
+            </form>
+        </main>
+
+        <%- include('../partials/footer')  %>
+        
+    </body>
+</html>
