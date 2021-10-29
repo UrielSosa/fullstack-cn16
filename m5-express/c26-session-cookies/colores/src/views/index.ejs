@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colores</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Colores</h1>
+
+    <% if (typeof data != 'undefined') { %>
+      <p>Hola <%=data.name %>, elegiste el color: <%=data.color %>, tu email es: <%= data.email %> <%= data.edad != '' ? 'y tu edad es:' + data.edad: null %>  </p>
+    <% } %>
+    
+    <div id="errores">
+      <h2>Errores</h2>
+      <% if (typeof errors != 'undefined') { %>
+        <% errors.forEach(error => { %>
+          <span style="color:red"><li><%= error.msg %></li></span>
+        <% }) %>
+      <% } %>
+    </div>
+    
+    <br>
+    <br>
+
+    <form action="/guardar" method="POST">
+      <div>
+        <label for="">Ingrese su nombre</label>
+        <input type="text" name="name">
+      </div>
+      
+      <div>
+        <select name="color">
+          <option>Seleccione un color</option>
+          <option value="red">Rojo</option>
+          <option value="blue">Azul</option>
+          <option value="green">Verde</option>
+          <option value="yellow">Amarillo</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="">Ingrese su mail</label>
+        <input type="email" name="email" id="">
+      </div>
+
+      <div>
+        <label for="">Ingrese su edad</label>
+        <input type="number" name="edad" id="">
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </body>
+</html>
