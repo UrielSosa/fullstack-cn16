@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Uri",
+        "email": "u@email.com",
+        "password": "$2a$12$TCuTbwN96TdzA/WZOGgZf.trSbzRc3I3EdigiMo5GziuH4JSf3DZW",
+        "image": "avatar-1635467614522.png"
+    },
+    {
+        "name": "Uriel",
+        "email": "u@email.com",
+        "password": "$2a$12$E.y6XjQFiSZybbMNPlwq2egF9GzcBqLhL5u29DDR.ofJVcGVgQP1G",
+        "image": "avatar-1635467775430.png"
+    }
+]
